@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Negotiation Agent Demo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Negotiation Agent (Demo)</h1>
+
+      <section class="scenario">
+        <h2>Scenario</h2>
+        <form id="scenario-form">
+          <div class="row">
+            <label>Item name<input name="item_name" value="iPhone 12 (128GB)"></label>
+            <label>List price<input name="list_price" value="500"></label>
+          </div>
+          <label>Item description<input name="item_description" value="Used, good battery"></label>
+          <div class="row">
+            <label>Seller target price<input name="seller_target_price" value="420"></label>
+            <label>Seller bottomline<input name="seller_bottomline" value="380"></label>
+          </div>
+          <div class="row">
+            <label>Buyer target price<input name="buyer_target_price" value="350"></label>
+            <label>Buyer bottomline<input name="buyer_bottomline" value="400"></label>
+          </div>
+          <div class="actions">
+            <button id="start-btn" type="button">Start Scenario</button>
+          </div>
+        </form>
+        <pre id="scenario-meta" class="meta"></pre>
+      </section>
+
+      <section class="chat">
+        <h2>Chat</h2>
+        <div id="messages" class="messages"></div>
+
+        <div class="input-row">
+          <input id="message-input" placeholder="Type your message or offer (e.g. $400)" />
+          <button id="send-btn">Send</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

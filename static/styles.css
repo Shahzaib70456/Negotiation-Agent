@@ -1,0 +1,21 @@
+:root{--bg:#f7f9fb;--card:#fff;--accent:#2563eb;--muted:#6b7280}
+*{box-sizing:border-box;font-family:Segoe UI,Roboto,Arial}
+body{margin:0;background:var(--bg);color:#111}
+.container{max-width:900px;margin:28px auto;padding:18px}
+h1{margin:0 0 10px}
+.scenario,.chat{background:var(--card);padding:14px;border-radius:8px;box-shadow:0 1px 3px rgba(16,24,40,0.05);margin-bottom:12px}
+.row{display:flex;gap:10px}
+label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}
+input[type=text], input{width:100%;padding:8px;border:1px solid #e5e7eb;border-radius:6px}
+.actions{margin-top:8px}
+button{background:var(--accent);color:#fff;padding:8px 12px;border-radius:6px;border:0;cursor:pointer}
+.messages{min-height:220px;max-height:420px;overflow:auto;padding:10px;border-radius:6px;background:#f3f4f6}
+.msg{margin:8px 0;padding:8px;border-radius:8px;max-width:78%}
+.msg .role{font-weight:600;font-size:12px;margin-bottom:4px}
+.user{background:#e0f2fe;margin-left:auto;text-align:right}
+.bot{background:#eef2ff}
+.intent{margin-top:6px;font-size:12px;color:var(--muted)}
+.input-row{display:flex;gap:8px;margin-top:10px}
+.input-row input{flex:1}
+.system{font-size:13px;color:var(--muted);padding:6px;text-align:center}
+.meta{background:#111827;color:#fff;padding:8px;border-radius:6px;margin-top:8px}
