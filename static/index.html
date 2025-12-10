@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Negotiation Agent Demo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
   </head>
   <body>
     <div class="container">
@@ -36,14 +36,16 @@
       <section class="chat">
         <h2>Chat</h2>
         <div id="messages" class="messages"></div>
-
         <div class="input-row">
           <input id="message-input" placeholder="Type your message or offer (e.g. $400)" />
           <button id="send-btn">Send</button>
+          <button id="mic-btn" class="mic" title="Use microphone">🎤</button>
+          <button id="tts-btn" class="mic" title="Toggle speech">🔊</button>
         </div>
+        <div class="hint">Tip: Click the microphone and speak. (Requires a browser with Web Speech API — Chrome recommended.)</div>
       </section>
     </div>
 
-    <script src="app.js"></script>
+    <script src="/static/app.js"></script>
   </body>
 </html>
