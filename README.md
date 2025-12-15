@@ -100,7 +100,7 @@ The unified schema standardizes:
 
 * Roles (buyer / seller)
 * Turn structure (agent, role, action)
-* Numerical values and bundles
+* Numerical values and Intent
 * Final deal outcomes
 
 ### Intent Annotation
@@ -212,6 +212,7 @@ Comparative tests showed the fine-tuned model consistently outperformed the raw 
 ## Final Note
 
 This project demonstrates that **small, efficient LLMs combined with symbolic reasoning** can outperform larger models in constrained, real-world tasks like negotiation. By enforcing logic externally and letting the model focus on language and strategy, we achieve both correctness and realism.
+
 
 
 
