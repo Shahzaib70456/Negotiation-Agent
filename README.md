@@ -26,6 +26,24 @@ python app_refined.py
 ```
 ---
 
+## Repository Structure
+
+```text
+.
+├── app_refined.py              # Flask backend + orchestration + scoring agent logic
+├── Dataset/                    # Unified negotiation datasets (Craigslist + CaSiNo)
+├── Scripts/                    # Training and inference scripts
+├── tests/                      # Comparative inference and evaluation scripts
+├── en_US-ryan-medium.onnx.json # Piper model for Text-To-Speech
+├── static/                     # Frontend assets (CSS/JS)
+├── requirements.txt            # Packages to install
+└── README.md
+
+```
+
+
+---
+
 ## Core Features
 
 * **Fine-Tuned Negotiation LLM**
@@ -194,6 +212,7 @@ Comparative tests showed the fine-tuned model consistently outperformed the raw 
 ## Final Note
 
 This project demonstrates that **small, efficient LLMs combined with symbolic reasoning** can outperform larger models in constrained, real-world tasks like negotiation. By enforcing logic externally and letting the model focus on language and strategy, we achieve both correctness and realism.
+
 
 
 
