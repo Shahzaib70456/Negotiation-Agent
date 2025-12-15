@@ -24,9 +24,9 @@ conversations = {}
 # ---------------------------
 # Config
 # ---------------------------
-MODEL_DIR = r"C:\Users\redia\LLMs_Project\new_qwen_intent"
+MODEL_DIR = # finetuned model directory
 BASE_MODEL = "Qwen/Qwen2.5-3B"
-PIPER_MODEL = r"C:\Users\redia\LLMs_Project\en_US-ryan-medium.onnx"
+PIPER_MODEL = "./en_US-ryan-medium.onnx"
 
 model = None
 tokenizer = None
