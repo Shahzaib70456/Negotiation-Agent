@@ -49,7 +49,7 @@ python app_refined.py
 * **Fine-Tuned Negotiation LLM**
   Qwen 2.5-3B fine-tuned with QLoRA for strategic bargaining, **explicit intent prediction**, and persona consistency.
   
-  **Model:** https://huggingface.co/rediah321/Qwen2.5-3B-Negotiation/tree/main
+  **Fine-tuned Model:** https://huggingface.co/rediah321/Qwen2.5-3B-Negotiation/tree/main
 
 * **Neuro-Symbolic Guardrails**
   Python-based logic enforces pricing constraints and overrides invalid model decisions ("math blindness" prevention).
@@ -212,6 +212,7 @@ Comparative tests showed the fine-tuned model consistently outperformed the raw 
 ## Final Note
 
 This project demonstrates that **small, efficient LLMs combined with symbolic reasoning** can outperform larger models in constrained, real-world tasks like negotiation. By enforcing logic externally and letting the model focus on language and strategy, we achieve both correctness and realism.
+
 
 
 
